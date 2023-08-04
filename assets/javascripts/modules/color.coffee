@@ -3,7 +3,7 @@ color = Backbone.Model.extend
   defaults: {}
 
   randomColor: ->
-    [_.random(0, 360), 100, 50, 1 ]
+    [_.random(0, 360), 100, 50, 1]
 
   updateRgb: (rgba) ->
     rgba or= @hslToRgb @hsla()
